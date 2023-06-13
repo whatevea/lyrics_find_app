@@ -13,7 +13,7 @@
 }
 
 .container {
-    width: 30vw;
+    width: 500px;
     padding: 20px;
     /* text-align: center; */
 }
@@ -76,14 +76,13 @@
     padding: 10px;
     margin-top: 40px;
     width: 100%;
-    overflow: hidden;
 }
 
 .form-holder {
     margin-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 label {
